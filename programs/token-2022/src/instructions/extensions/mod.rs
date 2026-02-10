@@ -1,3 +1,4 @@
+pub mod confidential_mint_burn;
 pub mod default_account_state;
 pub mod memo_transfer;
 pub mod transfer_hook;
@@ -8,4 +9,5 @@ pub enum ExtensionDiscriminator {
     DefaultAccountState = 28,
     MemoTransfer = 30,
     TransferHook = 36,
+    ConfidentialMintBurn = 42,
 }
