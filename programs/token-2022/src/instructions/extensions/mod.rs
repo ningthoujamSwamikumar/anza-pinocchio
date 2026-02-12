@@ -1,3 +1,4 @@
+pub mod confidential_transfer_fee;
 pub mod default_account_state;
 pub mod memo_transfer;
 pub mod permanent_delegate;
@@ -10,4 +11,5 @@ pub enum ExtensionDiscriminator {
     MemoTransfer = 30,
     PermanentDelegate = 35,
     TransferHook = 36,
+    ConfidentialTransferFee = 37,
 }
